@@ -16,3 +16,6 @@ search_bar.send_keys(Keys.RETURN)
 
 print(driver.current_url)
 
+driver.close()
+
+driver.switch_to_window('window_name')
